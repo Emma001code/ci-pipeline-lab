@@ -1,0 +1,19 @@
+[project]
+name = "ci-pipeline-lab"
+version = "0.1.0"
+description = "A small Python project that demonstrates a GitHub Actions CI pipeline."
+requires-python = ">=3.13"
+dependencies = []
+
+[project.scripts]
+ci-pipeline-lab = "ci_pipeline_lab:main"
+
+[build-system]
+requires = ["uv_build>=0.13.3,<0.14.0"]
+build-backend = "uv_build"
+
+[dependency-groups]
+dev = [
+    "pytest>=9.1.1",
+    "ruff>=0.17.1",
+]
