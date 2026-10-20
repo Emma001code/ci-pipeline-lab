@@ -1,3 +1,6 @@
+
+import os
+
 """Convert temperatures between Celsius and Fahrenheit."""
 
 
